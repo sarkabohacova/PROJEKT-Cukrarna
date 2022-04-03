@@ -31,5 +31,181 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
+.content {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/* menu */
+
+.flex-menu {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 30px auto;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	flex-basis: 50%;
+	justify-content: space-evenly;
+}
+
+.list {
+	text-decoration: none;
+	color: #242424;
+}
+
+.menu a:hover {
+	background-color: #d2567d;
+	color: #f0f0f0;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.logo {
+	width: 170px;
+}
+
+/* banner */
+
+.heading-main {
+	font-size: 52px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	line-height: 1.25;
+	padding-top: 80px;
+	padding-right: 40%;
+	margin-top: 0;
+}
+
+.header {
+	background-image: url(images/cupcake.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	color: white;
+}
+
+.text-header {
+	font-size: 24px;
+	font-style: italic;
+	padding-bottom: 80px;
+	padding-right: 40%;
+	margin-bottom: 0;
+}
+
+/* welcome */
+
+.first {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	column-gap: 30px;
+}
+
+.heading-welcome {
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+	font-size: 36px;
+}
+
+.pic-welcome {
+	border-radius: 5px;
+}
+
+.products {
+	text-decoration: none;
+	color: #f0f0f0;
+	background-color: #f195b2;
+	border-radius: 30px;
+	padding: 15px 40px;
+}
+
+.welcome-left a:hover {
+	background-color: #d2567d;
+	color: #f0f0f0;
+	border-radius: 30px;
+	padding: 15px 40px;
+}
+
+.text-welcome {
+	margin-bottom: 30px;
+}
+
+/* offer */
+
+.offer {
+	background-color: #f0f0f0;
+}
+
+.heading-offer {
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+	font-size: 36px;
+	padding-top: 80px;
+	margin-bottom: 0;
+}
+
+.second {
+	display: flex;
+	column-gap: 30px;
+	padding-bottom: 80px;
+}
+
+.pic-product {
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.heading-product {
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+	text-align: center;
+}
+
+.text-product {
+	padding: 0 20px 20px 20px;
+	font-size: 16px;
+}
+
+.product {
+	background-color: white;
+	border-radius: 5px;
+}
+
+/* attitude */
+
+.third {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	column-gap: 30px;
+}
+
+.heading-attitude {
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+	font-size: 36px;
+}
+
+.pic-attitude {
+	border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	background-color: #303339;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
